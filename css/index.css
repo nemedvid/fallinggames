@@ -1,0 +1,312 @@
+.best-propositions{
+    background: #d7d7d7;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    height: 550px;
+}
+
+.best-propositions-box{
+    width: 70%;
+    margin: 0 auto;
+}
+
+
+.search{
+    width: 175px;
+    height: 25px;
+    border: none;
+    padding: 10px;
+}
+
+.functions-bp{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.windows-img{
+    width: 40px;
+    height: 40px;
+}
+
+.mac-os-img{
+    width: 40px;
+    height: 40px;
+}
+
+.image-bp{
+    width: 950px;
+    height: 500px;
+}
+
+.buy-butto2{
+    position: absolute;
+    width: 190px;
+    height: 70px;
+    background: white;
+    color: black;
+    border: none;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 22px;
+    margin-left: -900px;
+    margin-top: 370px;
+}
+
+.arrow-box{
+    width: 100px;
+    height: 100px;
+}
+
+.games-with-discount{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.inside-discount{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.free-games{
+    background: #d7d7d7;
+    padding: 20px;
+}
+
+.inside-free{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.games-categories{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.inside-categories{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.survival-category{
+    width: 300px;
+    height: 100px;
+    background-image: url(../img/icon-survival.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Exo 2', sans-serif;
+    color: white;
+    font-size: 30px;
+}
+
+.strategy-category{
+    width: 300px;
+    height: 100px;
+    background-image: url(../img/icon-strategies.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Exo 2', sans-serif;
+    color: white;
+    font-size: 30px;
+}
+
+.adventures-category{
+    width: 300px;
+    height: 100px;
+    background-image: url(../img/icon-adventures.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Exo 2', sans-serif;
+    color: white;
+    font-size: 30px;
+}
+
+.horror-category{
+    width: 300px;
+    height: 100px;
+    background-image: url(../img/icon-horror.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Exo 2', sans-serif;
+    color: white;
+    font-size: 30px;
+}
+
+.categ:hover{
+    opacity: 0.7;
+}
+
+.text-categories{
+    text-shadow: black 1px 0 10px;
+}
+
+.right-cataloge-bp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 50px;
+}
+
+.bottom-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+}
+
+h3{
+    font-size: 36px;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 500;
+}
+
+.text-price{
+    font-size: 30px;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 500;
+}
+
+.text-about-bp{
+    font-size: 18px;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.points-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.point1{
+    cursor: pointer;
+    background: red;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    margin: 10px;
+}
+.point2{
+    cursor: pointer;
+    background: red;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    margin: 10px;
+}
+.point3{
+    cursor: pointer;
+    background: red;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    margin: 10px;
+}
+
+.games-cataloge-bp1{
+    display: flex;
+    justify-content: space-between;
+    background: white;
+}
+.games-cataloge-bp2{
+    display: flex;
+    justify-content: space-between;
+    background: white;
+}
+.games-cataloge-bp3{
+    display: flex;
+    justify-content: space-between;
+    background: white;
+}
+
+.slider {
+    width: 800px;
+    height: 500px;
+    overflow: hidden;
+ }
+ 
+ .middle {
+    position: relative;
+    margin: 0 auto;
+ }
+ 
+ .navigation {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+ }
+ 
+ .bar {
+    width: 30px;
+    height: 30px;
+    margin: 6px;
+    cursor: pointer;
+    background-color: red;
+    opacity: .5;
+    transition: all 0.4s ease;
+ }
+ 
+ .bar:hover {
+    opacity: 0.9;
+    transform:scale(1.1);
+ }
+ 
+ input[name="r"] {
+    position: absolute;
+    visibility: hidden;
+ }
+ 
+ .slides {
+    width: 400%;
+    height: 100%;
+    display: flex;
+ }
+ 
+ .slide {
+    width: 25%;
+    transition: all 0.6s ease;
+ }
+ 
+ .img {
+    width: 100%;
+    height: 100%;
+ }
+ 
+ #r1:checked ~ .s1 {
+    margin-left: 0;
+ }
+ 
+ #r2:checked ~ .s1 {
+    margin-left: -25%;
+ }
+ 
+ #r3:checked ~ .s1 {
+    margin-left: -50%;
+ }
+ 
+ .buy-button2{
+     position: absolute;
+     text-transform: uppercase;
+     width: 200px;
+     height: 70px;
+     margin-top: 400px;
+     margin-left: 30px;
+     background: white;
+    color: black;
+    border: none;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 22px;
+ }

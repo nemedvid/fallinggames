@@ -1,0 +1,88 @@
+main{
+    margin: 0 auto;
+    width: 70%;
+}
+
+h1{
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+}
+
+.personal-support{
+    background: #d7d7d7;
+    padding: 20px;
+}
+
+.problem{
+    background: #d7d7d7;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.problem:hover{
+    opacity: 0.7;
+}
+
+.problem-list-text{
+    text-decoration: none;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 24px;
+    margin-left: 20px;
+    color: black;
+}
+
+.functions-pp{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.support-question{
+    font-family: 'Exo 2', sans-serif;
+    font-size: 24px;
+}
+
+.send-button{
+    width: 190px;
+    height: 70px;
+    background: white;
+    color: black;
+    border: none;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+.problem-text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 630px;
+}
+
+.about-problem{
+    width: 520px;
+    height: 35px;
+    border: none;
+    padding: 10px;
+}
+
+.search{
+    width: 270px;
+    height: 35px;
+    border: none;
+    padding: 10px;
+    background: #d7d7d7;
+}
+
+.counter{
+    font-family: 'Exo 2', sans-serif;
+    font-size: 22px;
+}
+
+.warning{
+    color: red;
+}

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/support.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Heebo:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="script.js">
+    <title>Крамниця</title>
+</head>
+<body>
+    <div class="container">
+    <header>
+        <div class="header-box">
+        <img class="logo" src="img/falling-games-logo_border.png" alt="logo">
+        <nav>
+            <a class="li-link" href="index.html"><li>Крамниця</li></a>
+            <a class="li-link" href="#"><li>Підтримка</li></a>
+            <a class="li-link" href="about.html"><li>Про нас</li></a>
+        </nav>
+
+        <div class="functions">
+            <a class="reg_a" href="">Увійти</a>
+            <a class="language_a" href="">Мова</a>
+        </div>
+
+        <button class="download-button_1">Завантажити</button>
+    </div>
+    </header>
+
+
+
+    <main>
+        <h1>Підтримка FallingGames</h1>
+       <div class="personal-support">
+            <div class="personal-support-box">
+                <p class="support-question">З чим у вас виникли проблеми?</p>
+                <form class="problem-text">
+                    <input class="about-problem" type="text" name="text" placeholder="Опишіть проблему">
+                    <p class="counter"><span class="counter-symbols">0</span>/<span class="symbols-max">500</span></p>
+                </form>
+                <button class="send-button">Відправити</button>
+            </div>
+       </div>
+
+       <div class="popular-problems">
+        <div class="functions-pp">
+            <h2>Поширені проблеми</h2>
+            <form class="problem-search">
+                <input class="search" type="text" name="text" placeholder="Пошук по проблемам">
+            </form>
+        </div>
+        <div class="problems-list">
+            <div class="problem"><a class="problem-list-text" href="">Ігри, програми...</a></div>
+            <div class="problem"><a class="problem-list-text" href="">Акаунти</a></div>
+            <div class="problem"><a class="problem-list-text" href="">Покупки</a></div>
+            <div class="problem"><a class="problem-list-text" href="">Подарунки, обмін...</a></div>
+            <div class="problem"><a class="problem-list-text" href="">Спільнота</a></div>
+        </div>
+       </div>
+    </main>
+
+    <script>
+        let textarea = document.querySelector('.about-problem');
+        let numbers = document.querySelector('.counter-symbols')
+        let submitButton = document.querySelector('.send-button')
+
+        textarea.oninput = function(){
+          numbers.textContent = textarea.value.length;
+
+          if(textarea.value.length > 500){
+            numbers.classList. add("warning");
+            submitButton.disabled = true;
+          }
+          else{
+            numbers.classList.remove("warning");
+            submitButton.disabled = false;
+          }
+        }
+
+        submitButton.onclick = function(){
+            alert("Ваш запит надіслано");
+        }
+    </script>
+
+
+
+    <footer>
+        <div class="cookies norm">
+            <p class="cookies-text">Ми використовуємо ваші cookies</p>
+            <button class="cookies-butt">ок, продовжуйте</button>
+        </div>
+        <div class="info-footer">
+            <div class="inside-footer">
+            <div class="socials-imgs">
+                <img class="social-icon" src="img/icon-facebook.png" alt="">
+                <img class="social-icon" src="img/icon-twitter.png" alt="">
+                <img class="social-icon" src="img/icon-youtube.png" alt="">
+            </div>
+            <p class="footer-name">FallingGames©</p>
+            <div class="politics-info">
+                <p class="politic-one">Політика конфіденційності</p>
+                <p class="politic-two">Умови використання</p>
+                <p class="politic-three">Повернення коштів</p>
+            </div>
+        </div>
+        <div class="color-back-site">
+            <div class="white-color"></div>
+            <div class="blue-color"></div>
+        </div>
+    </div>
+    </footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,204 @@
+body{
+    
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+}
+
+h2{
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.li-link{
+    text-decoration: none;
+    color: black;
+}
+
+.li-link:hover{
+    opacity: 0.7;
+}
+
+header{
+    height: 166px;
+    /*box-shadow: 0px 1px 5px black;*/
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.header-box{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 540px;
+}
+
+li{
+    list-style-type: none;
+    text-transform: uppercase;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.download-button_1{
+    width: 190px;
+    height: 70px;
+    background: black;
+    color: white;
+    border: none;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 22px;
+}
+
+.download-button_1:hover{
+    background-color: #666666;
+    color: #DCDCDC;
+    transition: 0.3s;
+}
+
+.functions{
+    font-family: 'Exo 2', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 160px;
+    font-size: 22px;
+}
+
+.reg_a{
+    text-decoration: none;
+    color: black;
+    border-right: 2px solid black;
+    padding: 12px;
+}
+
+.language_a{
+    text-decoration: none;
+    color: black;
+}
+
+.norm{
+    background: black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.cookieshid{
+    display: none;
+ }
+
+.cookies-text{
+    font-family: 'Exo 2', sans-serif;
+    font-size: 24px;
+    color: white;
+}
+
+.cookies-butt{
+    height: 25px;
+    font-family: 'Exo 2', sans-serif;
+    margin-left: 10px;
+}
+
+.inside-footer{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.socials-imgs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 150px;
+    margin-top: 20px;
+}
+
+.social-icon{
+    width: 50px;
+    height: 50px;
+}
+
+.footer-name{
+    font-size: 24px;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.politics-info{
+    display: flex;
+    justify-content: space-between;
+    width: 660px;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 18px;
+    align-items: center;
+    margin-left: -15px;
+    margin-top: -15px;
+}
+
+.politic-one{
+    border-right: 2px solid #666666;
+    padding: 15px;
+}
+
+.politic-three{
+    border-left: 2px solid #666666;
+    padding: 15px;
+}
+
+@media (max-width:800px){
+
+    .download-button_1{
+        display: none;
+    }
+
+    nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+    }
+
+    .politics-info{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .politic-one{
+        border-right: 0px solid #666666;
+        padding: 15px;
+    }
+    
+    .politic-three{
+        border-left: 0px solid #666666;
+        padding: 15px;
+    }
+
+    .socials-imgs{
+        display: flex;
+    }
+
+    .inside-footer{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        margin: 0 auto;
+
+    }
+
+ }
